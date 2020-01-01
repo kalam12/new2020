@@ -23,7 +23,6 @@ body {
 }
 
 .my-style {
-    /* background-image: radial-gradient(circle, #051937, #004d7a, #008793, #00bf72, #a9eb14); */
     background-image: url(bangladesh.gif);
     color: #fff;
     text-align: center;
