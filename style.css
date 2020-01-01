@@ -51,7 +51,7 @@
 .my-style h1:nth-child(2) {
     color: #fff;
     -webkit-text-stroke: 5px #4303f4;
-    animation: animate1 5s ease-in-out infinite;
+    animation: animate1 2s ease-in-out infinite;
     position: absolute;
     left: 0;
     top: 0;
