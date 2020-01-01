@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.section-style {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.my-style h1 {
+    font-size: 250px;
+    text-transform: uppercase;
+    color: #2c3e5036;
+    background-image: url(img/water-animation-png-3.png);
+    -webkit-background-clip: text;
+    animation: water 15s infinite;
+    -webkit-text-stroke: 6px #ecf403;
+    -moz-text-stroke: 6px #ecf403;
+    margin-bottom: 0;
+}
+
+.my-style {
+    /* background-image: radial-gradient(circle, #051937, #004d7a, #008793, #00bf72, #a9eb14); */
+    background-image: url(img/bangladesh.gif);
+    color: #fff;
+    text-align: center;
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+}
+
+.my-style svg {
+    display: block;
+}
+
+.my-svg {
+    background-image: linear-gradient(to right, #f21e96, #e400a3, #d200b1, #b900c1, #9800d0, #7a42e6, #535ff5, #0075ff, #00a0ff, #00c3ff, #00e1ff, #5ffbf1);
+}
+
+.my-svg svg {
+    display: block;
+}
+
+@keyframes water {
+
+    form {
+        background-position: left 0 top 0;
+    }
+
+    to {
+        background-position: left 1000px top 0;
+    }
+}
